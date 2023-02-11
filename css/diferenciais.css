@@ -25,7 +25,7 @@
     background-image: url(../img/icone-dinheiro.png);
 }
 
-.diferenciais__item--especialistas {
+.diferenciais__item--especialistas {  
     background-image: url(../img/icone-quimica.png);
 }
 
@@ -40,4 +40,14 @@
 
 .item__texto {
     line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: var(--cinza-claro);
+    }
+
+    .diferenciais__lista {
+        justify-content: space-around;
+    }
 }
